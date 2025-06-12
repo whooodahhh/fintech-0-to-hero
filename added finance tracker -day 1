@@ -1,0 +1,16 @@
+print("🦾monthly finance tracker-day1.")
+income=float(input('enter your monthly income: '))
+rent=float(input('enter your monthly rent: '))
+food=float(input('enter your monthly food expenses: '))
+other_bills=float(input('enter your other bills : '))
+expenses=rent+food+other_bills
+savings=income-expenses
+print('your monthly expenditureis:',expenses)
+print('your monthly savings is:',savings)
+if savings > 10000 :
+  print('🤩good going!you are saving well')
+elif savings > 2000:
+  print("😊savings can be better,save more")
+else:
+  print("🤷‍♀️save more to get that ticket love")
+  
